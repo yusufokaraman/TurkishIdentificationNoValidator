@@ -6,7 +6,7 @@ namespace TurkishIdentificationNoValidator.Services
 {
     public class TurkishIdentificationNoService
     {
-        private readonly TurkishIdValidator _validator;
+        private TurkishIdValidator _validator;
 
         public TurkishIdentificationNoService(string tcKimlikNo, string ad, string soyad, int dogumYili)
         {
@@ -24,6 +24,11 @@ namespace TurkishIdentificationNoValidator.Services
         public string Ad { get; }
         public string Soyad { get; }
         public int DogumYili { get; }
+
+        public void SetValidator(TurkishIdValidator validator)
+        {
+            _validator = validator;
+        }
 
         public async Task<string> Dogrula()
         {
