@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurkishIdentificationNoVali
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{537D6805-3BC8-498C-B727-F559E190D009}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurkishIdentificationNoValidator.Test", "TurkishIdentificationNoValidator.Test\TurkishIdentificationNoValidator.Test.csproj", "{B807C249-FDEB-4325-AE0B-F4CD85EE1D1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{537D6805-3BC8-498C-B727-F559E190D009}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{537D6805-3BC8-498C-B727-F559E190D009}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{537D6805-3BC8-498C-B727-F559E190D009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B807C249-FDEB-4325-AE0B-F4CD85EE1D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B807C249-FDEB-4325-AE0B-F4CD85EE1D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B807C249-FDEB-4325-AE0B-F4CD85EE1D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B807C249-FDEB-4325-AE0B-F4CD85EE1D1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

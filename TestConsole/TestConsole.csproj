@@ -15,4 +15,8 @@
     <PackageReference Include="System.ServiceModel.Security" Version="6.0.*" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TurkishIdentificationNoValidator\TurkishIdentificationNoValidator.csproj" />
+  </ItemGroup>
+
 </Project>
